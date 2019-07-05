@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,600italic,600,400italic,300' rel='stylesheet' type='text/css'>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="fonts/fonts.css" rel="stylesheet" type="text/css" charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+    <link rel="shortcut icon" href="img/favicon-9.ico" />
+    <title>Club Premium</title>
+</head>
+<body class="style-15">
+
+    <!-- LOADER -->
+    <div id="loader-wrapper">
+        <div class="bubbles">
+            <div class="title">Cargando</div>
+            <span></span>
+            <span id="bubble2"></span>
+            <span id="bubble3"></span>
+        </div>
+    </div>
+
+    <div id="content-block">
+
+        <div class="fixed-header-margin">
+            <!-- HEADER -->
+            <div class="header-wrapper style-15">
+                <header class="type-4">
+                    <div class="header-top">
+                        <div class="menu-button responsive-menu-toggle-class"><i class="fa fa-reorder"></i></div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="logo-resp">
+                        <img src="img/logo-15.png" alt="Seguros Pichincha">
+                    </div>
+
+                    <div class="close-header-layer"></div>
+                    <div class="navigation content-push" style="padding-top:5px; padding-bottom:5px;">
+                        <div class="navigation-header responsive-menu-toggle-class">
+                            <div class="close-menu"></div>
+                            <div class="title"><a href="index.html"><img src="img/logo-15.png" alt=""></a></div>
+                        </div>
+                        <div class="nav-overflow">
+                            <div class="content-push">
+                                <div class="col-md-2 col-lg-2">
+                                    <a href="index.html" class="fixed-header-visible additional-header-logo top" style="display: block;float: left;"><img src="img/logo-15.png" alt=""/></a>
+                                </div>
+                                <div class="col-md-6 col-lg-6">
+                                    <nav>
+                                        <ul>
+                                            <li class="full-width-columns">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li class="simple-list">
+                                                <a href="beneficios.html">Mis beneficios</a>
+                                            </li>
+                                            <li class="column-1">
+                                                <a href="mis_puntos.html">Mis puntos</a>
+                                            </li>
+                                            <li class="column-1">
+                                                <a href="mi_perfil.html">Mi Perfil</a>
+                                            </li> 
+                                            <li class="column-1">
+                                                <a href="faq.html">Preguntas frecuentes</a>
+                                            </li>    
+                                            <li class="column-1">
+                                                <a href="login.html">Cerrar Sesión</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <div class="col-md-5 col-lg-5 top_left" style="font-weight:300">
+                                    <a class="header-functionality-entry open-search-popup" href="#"><i class="fa fa-search"></i><span></span></a>
+                                    <a class="header-functionality-entry open-wishlist-popup" href="whislist.html"><i class="fa fa-heart-o"></i><span></span></a>
+                                    <a class="header-functionality-entry open-cart-popup" href="#"><i class="fa fa-shopping-cart"></i><span></span></a>
+                                    <div class="header-functionality-entry pts-menu" href="#"><span>Tienes 240 Puntos</span></div>
+                                     <a href="login.html" class="logout">Cerrar Sesión</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <div class="clear"></div>
+            </div>
+
+            <!-- Banner -->
+            <div class="banner_estatico">
+                <div class="banner_internas" style="background-image:url(img/bg-4.png);background-position: 45% 0;">
+                    <div class="internas-banner-content content-push">
+                        <div class="cell-view">
+                        </div>
+                    </div>
+                </div>
+                 <div class="breadcrumb-banner">
+                    <div class="content-push">
+                        <a href="index.html">Home</a><span class="acti">Whislist</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-push box-checkout carrito whislist">
+
+                <div class="mozaic-banners-wrapper type-2">
+
+                        <div class="banner-column col-sm-12">
+                            <div class="information-blocks">
+                                    <div class="information-blocks">
+                                        <div class="table-responsive">
+                                            <table class="cart-table">
+                                                <tr>
+                                                    <th class="column-1">Producto</th>
+                                                    <th class="column-2">Precio</th>
+                                                    <th class="column-3">Cantidad</th>
+                                                    <th class="column-4">Subtotal</th>
+                                                    <th class="column-5"></th>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="traditional-cart-entry">
+                                                            <a href="#" class="image"><img src="img/licuadora_2.png" alt=""></a>
+                                                            <div class="content">
+                                                                <div class="cell-view">
+                                                                    <a href="detalle_producto.html" class="title">Licuadora Artisan Roja</a>
+                                                                    <a class="tag">Kitchen Aid</a>
+                                                                    <div class="inline-description">Color <span>rojo</span></div>
+                                                                    <a class="button style-10 open-addcar">Agregar al carrito</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>2400 Pts.</td>
+                                                    <td>
+                                                        <div class="quantity-selector detail-info-entry">
+                                                            <div class="entry number-minus">&nbsp;</div>
+                                                            <div class="entry number">10</div>
+                                                            <div class="entry number-plus">&nbsp;</div>
+                                                        </div>
+                                                    </td>
+                                                    <td><div class="subtotal">8800 Pts.</div></td>
+                                                    <td><a class="remove-button"><i class="fa fa-times"></i></a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <div class="traditional-cart-entry">
+                                                            <a href="#" class="image"><img src="img/licuadora_2.png" alt=""></a>
+                                                            <div class="content">
+                                                                <div class="cell-view">
+                                                                    <a href="detalle_producto.html" class="title">Licuadora Artisan Roja</a>
+                                                                    <a class="tag">Kitchen Aid</a>
+                                                                    <div class="inline-description">Color <span>rojo</span></div>
+                                                                    <a class="button style-10 open-addcar">Agregar al carrito</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </td>
+                                                    <td>2400 Pts.</td>
+                                                    <td>
+                                                        <div class="quantity-selector detail-info-entry">
+                                                            <div class="entry number-minus">&nbsp;</div>
+                                                            <div class="entry number">10</div>
+                                                            <div class="entry number-plus">&nbsp;</div>
+                                                        </div>
+                                                    </td>
+                                                    <td><div class="subtotal">8800 Pts.</div></td>
+                                                    <td><a class="remove-button"><i class="fa fa-times"></i></a></td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    <div class="col-md-3" style="float:left; margin-top:20px;">
+                                    <a class="button style-11" href="beneficios.html">SEGUIR COMPRANDO</a></div>
+                                    <div class="col-md-3" style="float:right; margin-top:20px; margin-bottom:20px;">
+                                    <a class="button style-11" href="#" style="float:right;">ACTUALIZAR</a></div>
+
+                                <div class="col-md-6 col-md-offset-6">
+                                    <!--<div class="col-md-6 information-entry">
+                                                <div class="cart-summary-box">
+                                                    <p>Tienes un cupón?</p>
+                                                    <p>Ingresa tu número de cupón promocional</p>
+                                                    <input type="text" name="h_nombre" id="h_cod_cupon">
+                                                    <a class="button style-11" href="#">Usar cupón</a>
+                                                </div>
+                                        </div>-->
+                                        <div class="col-md-6 information-entry box-right">
+                                                <div class="cart-summary-box">
+                                                    <div class="sub-total">Subtotal: 19800 Pts</div>
+                                                    <div class="grand-total">Total: 13800 Pts</div>
+                                                    <!--<a class="button style-10 accept-1" href="#">HACER CHECKOUT</a>-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                </div>
+
+                <div class="hidden-sm hidden-xs" style="height: 30px;"></div>
+                
+            </div>
+        </div>
+
+       <!-- Footer-->
+        <footer id="footer">
+            <div class="footer_top_part">
+                <div class="container content-push">
+                    <div class="row clearfix">  
+                        <div class="col-lg-2 col-md-2 col-sm-3 m_xs_bottom_30">
+                            <a href="index.html" class="m_xs_bottom_15 d_xs_inline_b">
+                                <img src="img/logo-15.png" alt="" width="auto" height="100">
+                            </a>
+                        </div>               
+                        <div class="col-lg-2 col-md-2 col-sm-3 m_xs_bottom_30">
+                            <h3 class="color_light_2 m_bottom_20">Nosotros</h3>
+                            <ul class="vertical_list">
+                                <li><a class="color_light tr_delay_hover" href="terminos_y_condiciones.html">Términos y Condiciones</a></li>
+                                <li><a class="color_light tr_delay_hover" href="faq.html">Preguntas Frecuentes</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-3 m_xs_bottom_30">
+                            <h3 class="color_light_2 m_bottom_20">Mis Beneficios</h3>
+                            <ul class="vertical_list">
+                                <li><a class="color_light tr_delay_hover" href="beneficios.html">Ver los beneficios</a></li>
+                                <li><a class="color_light tr_delay_hover" href="mi_perfil.html">Mi Perfil</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-3 m_xs_bottom_30">
+                            <h3 class="color_light_2 m_bottom_20">Contacto</h3>
+                            <ul class="vertical_list">
+                                <li><a class="color_light tr_delay_hover" href="contacto.html">Contáctanos</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="search-box popup">
+        <form>
+            <div class="search-button">
+                <i class="fa fa-search"></i>
+                <input type="submit" />
+            </div>
+            <div class="search-field">
+                <input type="text" value="" placeholder="Buscar producto" />
+            </div>
+        </form>
+    </div>
+
+    <div class="cart-box popup">
+        <div class="popup-container">
+            <div class="cart-entry">
+                <a class="image"><img src="img/secadora-xl.jpg" alt="" /></a>
+                <div class="content">
+                    <a class="title" href="#">SECADORA SENCOR</a>
+                    <div class="quantity">Kitchen Aid</div>
+                    <div class="price">5559 Pts.</div>
+                </div>
+                <div class="button-x"><i class="fa fa-close"></i></div>
+            </div>
+            <div class="cart-entry">
+                <a class="image"><img src="img/secadora-xl.jpg" alt="" /></a>
+                <div class="content">
+                    <a class="title" href="#">SECADORA SENCOR</a>
+                    <div class="quantity">Kitchen Aid</div>
+                    <div class="price">5559 Pts.</div>
+                </div>
+                <div class="button-x"><i class="fa fa-close"></i></div>
+            </div>
+            <div class="summary">
+                <div class="subtotal">Subtotal: $990,00</div>
+                <div class="grandtotal">Total <span>$1029,79</span></div>
+            </div>
+            <div class="cart-buttons">
+                <div class="column">
+                    <a href="carrito.html" class="button style-3">Ver carrito</a>
+                    <div class="clear"></div>
+                </div>
+                <div class="column">
+                    <a href="checkout.html" class="button style-4" href="checkout.html">Checkout</a>
+                    <div class="clear"></div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+   <div id="product-popup" class="overlay-popup">
+        <div class="overflow">
+            <div class="table-view">
+                <div class="cell-view">
+                    <div class="close-layer"></div>
+                    <div class="popup-container">
+
+                        <div class="row">
+                            <div class="col-sm-6 information-entry">
+                                <div class="product-preview-box">
+                                    <div class="swiper-container product-preview-swiper" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="1">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="product-zoom-image">
+                                                    <img src="img/secadora-xl.jpg" alt="" data-zoom="img/product-main-1-zoom.jpg" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product-zoom-image">
+                                                    <img src="img/secadora-xl.jpg" alt="" data-zoom="img/product-main-2-zoom.jpg" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product-zoom-image">
+                                                    <img src="img/secadora-xl.jpg" alt="" data-zoom="img/product-main-3-zoom.jpg" />
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="product-zoom-image">
+                                                    <img src="img/secadora-xl.jpg" alt="" data-zoom="img/product-main-4-zoom.jpg" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pagination"></div>
+                                        <div class="product-zoom-container">
+                                            <div class="move-box">
+                                                <img class="default-image" src="img/secadora-xl.jpg" alt="" />
+                                                <img class="zoomed-image" src="img/secadora-xl.jpg" alt="" />
+                                            </div>
+                                            <div class="zoom-area"></div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-hidden-edges">
+                                        <div class="swiper-container product-thumbnails-swiper" data-autoplay="0" data-loop="0" data-speed="500" data-center="0" data-slides-per-view="responsive" data-xs-slides="3" data-int-slides="3" data-sm-slides="3" data-md-slides="4" data-lg-slides="4" data-add-slides="4">
+                                            <div class="swiper-wrapper">
+                                                <div class="swiper-slide selected">
+                                                    <div class="paddings-container">
+                                                        <img src="img/secadora-xl.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="paddings-container">
+                                                        <img src="img/secadora-xl.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="paddings-container">
+                                                        <img src="img/secadora-xl.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div class="swiper-slide">
+                                                    <div class="paddings-container">
+                                                        <img src="img/secadora-xl.jpg" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pagination"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 information-entry">
+                                <div class="product-detail-box">
+                                    <h1 class="product-title">Secadora Sencor</h1>
+                                    <h3 class="product-subtitle">Kitchen Aid</h3>
+                                    <div class="product-description detail-info-entry">Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur.</div>
+                                    <div class="price detail-info-entry">
+                                        <div class="prev">2500 puntos</div>
+                                    </div>
+                                    <div class="size-selector detail-info-entry">
+                                        <div class="detail-info-entry-title">Talla</div>
+                                        <div class="entry active">xs</div>
+                                        <div class="entry">s</div>
+                                        <div class="entry">m</div>
+                                        <div class="entry">l</div>
+                                        <div class="entry">xl</div>
+                                        <div class="spacer"></div>
+                                    </div>
+                                    <div class="color-selector detail-info-entry">
+                                        <div class="detail-info-entry-title">Color</div>
+                                        <div class="entry active" style="background-color: #d23118;">&nbsp;</div>
+                                        <div class="entry" style="background-color: #2a84c9;">&nbsp;</div>
+                                        <div class="entry" style="background-color: #000;">&nbsp;</div>
+                                        <div class="entry" style="background-color: #d1d1d1;">&nbsp;</div>
+                                        <div class="spacer"></div>
+                                    </div>
+                                    <div class="quantity-selector detail-info-entry">
+                                        <div class="detail-info-entry-title">Cantidad</div>
+                                        <div class="entry number-minus">&nbsp;</div>
+                                        <div class="entry number">10</div>
+                                        <div class="entry number-plus">&nbsp;</div>
+                                    </div>
+                                    <div class="detail-info-entry">
+                                        <a class="button style-10 open-addcar">Agregar al carrito</a>
+                                        <a class="button style-11"><i class="fa fa-heart"></i> Agregar a Wishlist</a>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="close-popup"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="add-car" class="overlay-popup">
+        <div class="overflow">
+            <div class="table-view">
+                <div class="cell-view">
+                    <div class="close-layer"></div>
+                    <div class="popup-container">
+                        <div class="row">
+                            <div class="col-sm-3 col-xs-4 img-addcar">
+                                <div style="width:150px;height:auto;"><img src="img/secadora-xl.jpg" alt=""></div>
+                                <div>Secadora</div>
+                                <div style="font-weight:bold;">2500 Pts</div>
+                            </div>
+                            <div class="col-sm-9 col-xs-8 information-entry">
+                                <div class="product-detail-box">
+                                    <div class="alert_2">El artículo fue agregado a tu carrito de compras</div>
+                                    <h1 class="product-title">Secadora</h1>
+                                    <h3 class="product-subtitle">Kitchen Aid</h3>
+                                    <div class="info-puntos">2500 Pts</div>
+
+                                    <div class="detail-info-entry col-md-offset-2">
+                                        <a href="beneficios.html" class="button style-11">Seguir comprando</a>
+                                        <a href="carrito.html" class="button style-10">Ir a carrito</a>
+                                        <div class="clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="close-popup"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/idangerous.swiper.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <!-- custom scrollbar -->
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/jquery.jscrollpane.min.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function(){
+
+        $(".slidingDiv").hide();
+        $(".show_hide").show();
+
+        $('.show_hide').click(function(){
+        $(".slidingDiv").slideToggle();
+
+        });
+
+        });
+
+
+
+
+
+        </script>
+
+</body>
+</html>
